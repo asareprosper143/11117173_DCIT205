@@ -1,33 +1,89 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="with=device-width", initial-scale="1.0">
-    <title>COMPUTER SCIENCE WEBSITE</title>
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-    <Section class="header">
-        <nav>
-            <a href="index.html"><img src="image/logo.png" alt="CS logo" height="40" width="200"></a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CATALOG</a></li>
-                    <li><a href="">RESOURCES</a></li>
-                    <li><a href="">CONTACTS</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">EVENTS</a></li>
-                    <li><a href="">STAFF PROFILES</a></li> 
-                </ul>
-
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>COMPUTER SCIENCE WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="image/comScience_logo.png" alt="CS logo" height="40"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CATALOG</a></li>
+                        <li><a href="">RESOURCES</a></li>
+                        <li><a href="">EVENTS</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="">STAFF PROFILES</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           
+            <div class="text-box">
+                <h1>The Gateway to Computer Science Education</h1>
+                <p>The Department of Computer Science offers in-depth training for students <br>with sound academic background in Mathematics and Science and who are <br>aspiring to become professionals in the field of Information Technology. The primary goal of the department is to <br>produce and provide the public sector of the nation as well as private organizations and institutions with<br> world class Computer Programmers, Computer Analysts, System Analysts and Management Information Specialists.
+                </p>
+                <a href="" class="hero-btn">VISIT US TO KNOW MORE</a>
             </div>
-        </nav>
+        
+        </section>
+        
+ <!---------course----------->
 
-          
-    </Section>
+       <section class="course">
+        <h1>Programmes We Offer</h1>
+        <p>To be eligible to take advantage of the opportunities available to this technology driven era, It is important acquire new skills in regards to I.T that will springboard your career. Our instructors have years of experience which presents students with a unique learning opportunity from the best. Below are some of the programs offered in our department Apply now!!!</p>
+     
+        <div class="row">
+            <div class="course-col">
+               <h3>Undergraduate Programmes</h3>
+                <p>Open the door to sought-after technology careers with a world-class Bachelor of science in Computer science degree.</p>
+             </div>
+                <div class="course-col">
+                     <h3>MPhil and Msc Programmes</h3>
+                     <p>Embrace world class graduate Education with unique blend of cutting-edge research and industry experience.</p>
+        </div>
+             <div class="course-col">
+                  <h3>PHD programmes</h3>
+                  <p>Our PHDs lead the efforts to extend the boundaries of knowledge through quality and industry relevant research.</p>
+                 </div>
 
 
-</body>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+<!------------Javascript for Toggle Menu---------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+    </body>
 </html>
