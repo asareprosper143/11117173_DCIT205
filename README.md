@@ -14,25 +14,25 @@ The purpose of this website is to serve as a comprehensive hub for all things re
 
 
 Table of Contents:
-Home, 
+Home
 
-About,
+About
 
-Catalogue,
+Catalogue
 
 Blog,
 
-Contacts,
+Contacts
 
-Events,
+Events
 
-Resources,
+Resources
 
-Staffs,
+Staffs
 
-Faculty,
+Faculty
 
-Library,
+Library
 
 
 
@@ -49,3 +49,5 @@ Name: ASARE PROSPER SHAIBU
 Student ID: 11117173
 
 
+
+[screenshots.pdf](https://github.com/asareprosper143/11117173_DCIT205/files/13487563/screenshots.pdf)
