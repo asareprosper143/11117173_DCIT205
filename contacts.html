@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>COMPUTER SCIENCE WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/comScience_logo.png" alt="CS logo" height="40"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Catalog.html">CATALOG</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="contacts.html">CONTACTS</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="resources.html">RESOURCES</a></li>
+                        <li><a href="">STAFFS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           <h1>CONTACT US</h1>
+        </section>
+
+        <!----------contact Us------------>
+
+        <section class="location"> 
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15881.617516142882!2d-0.1837907!3d5.6544997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d35c7bc40fd%3A0x760b35f47b34835d!2sComputer%20Science%20Department%2C%20University%20of%20Ghana!5e0!3m2!1sen!2sgh!4v1701012308609!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <section class="contact-us">
+
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i> 
+                        <span>
+                            <h5>Botanical Gardens Rd, Accra</h5>
+                                <p>University Of Ghana, Legon Campus
+                                    Opposite Mathematics Department Opposite Mathematics Department</p>
+                        </span>
+                    </div>
+                <div>
+                        <i class="fa fa-phone"></i> 
+                        <span>
+                            <h5>+233 501 382 035</h5>
+                                <p>Monday To Saturday</p>
+                        </span>
+                </div>
+                <div>
+                        <i class="fa fa-envelope"></i> 
+                        <span>
+                            <h5>dcs@ug.edu.gh</h5>
+                                <p>Email us your Queries</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+
+                    <form action="">
+                        <input type="text" placeholder="Enter Your Name" required>
+                        <input type="email" placeholder="Enter Your Email address" required>
+                        <input type="text" placeholder="Enter Your Subject">
+                        <textarea rows="8" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn blue-btn">SEND MESSAGE</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        
+
+    
+
+    <!-----------footer------------->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>This is the Information Technology age and at its core is Computer Science. 
+            <br>The study of computer science is therefore critical if society is to take full advantage of the benefits 
+            <br>Information Technology has to offer and make rapid economic advances. 
+            Computer science <br>involves the study and development of applications that allow for our everyday use of computers, 
+            the software systems that <br>support these applications, and the means and methods used to produce both applications and systems that <br>behave reliably, correctly and ethically. 
+            At the heart of Computer Science lies the skill of computer programming and employers who <br>hire Computer Scientists expect adept programmers 
+            with knowledge of current techniques and tools and the ability to<br> apply sound engineering principles to the development,
+             construction and maintenance of computer programs.</p>
+   <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-whatsapp"></i>
+   </div>
+   <p>Made With <i class="fa fa-heart-o"></i> by Asare Prosper Shaibu Lamar</p>
+   </section>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+<!------------Javascript for Toggle Menu---------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+    </body>
+</html>

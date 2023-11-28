@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>COMPUTER SCIENCE WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/comScience_logo.png" alt="CS logo" height="40"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Catalog.html">CATALOG</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="contacts.html">CONTACTS</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="resources.html">RESOURCES</a></li>
+                        <li><a href="">STAFFS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           <h1>Computer Science Department Resources</h1>
+        </section>
+
+        
+    <!-- Content for the Resources page -->
+    <main>
+        <h1>Resources</h1>
+
+        <section class="resource">
+            <img src="image/Code-complete-1024x576.jpg" alt="Programming Books Image">
+            <div class="resource-details">
+                <h2>Programming Books</h2>
+                <p>Description: As you navigate your way through the Computer Science department, you'll find a robust support system filled with rich resources. Explore a collection of programming books to enhance your coding skills.</p>
+                <p>Available Formats: PDF, ePUB, Hardcover</p>
+            </div>
+        </section>
+
+        <section class="resource">
+            <img src="image/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="Coding Tutorials Image">
+            <div class="resource-details">
+                <h2>Coding Tutorials</h2>
+                <p>Description: Computer Science labs are fully equipped with software and tools regularily utilized or required for research and academic courses.
+                    Technical support staff are available to set up any additional software, tools or environments that you may need for academic projects, such as repositories, databases, web servers, etc.
+                    The Department of Computer Science is licensed under the Microsoft DreamSpark program (also known MSDN Academic Alliance), which enables all current department faculty, staff, and students to access software available under the program. This allows the department to provide legal copies of certain Microsoft software for academic and non-commercial use.
+                    Custom Latex material and guidelines. Access a variety of coding tutorials covering different programming languages.</p>
+                <p>Topics: Web Development, Data Science, Algorithms, Python and PHP programming, Animations and many more</p>
+            </div>
+        </section>
+
+
+    </main>
+
+
+       
+
+    <!-----------footer------------->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>This is the Information Technology age and at its core is Computer Science. 
+            <br>The study of computer science is therefore critical if society is to take full advantage of the benefits 
+            <br>Information Technology has to offer and make rapid economic advances. 
+            Computer science <br>involves the study and development of applications that allow for our everyday use of computers, 
+            the software systems that <br>support these applications, and the means and methods used to produce both applications and systems that <br>behave reliably, correctly and ethically. 
+            At the heart of Computer Science lies the skill of computer programming and employers who <br>hire Computer Scientists expect adept programmers 
+            with knowledge of current techniques and tools and the ability to<br> apply sound engineering principles to the development,
+             construction and maintenance of computer programs.</p>
+   <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-whatsapp"></i>
+   </div>
+   <p>Made With <i class="fa fa-heart-o"></i> by Asare Prosper Shaibu Lamar</p>
+   </section>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+<!------------Javascript for Toggle Menu---------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+    </body>
+</html>

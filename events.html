@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>COMPUTER SCIENCE WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/comScience_logo.png" alt="CS logo" height="40"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Catalog.html">CATALOG</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="contacts.html">CONTACTS</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="resources.html">RESOURCES</a></li>
+                        <li><a href="">STAFFS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           <h1>EVENTS</h1>
+        </section>
+
+        <!-----------------contents for the events page---------->
+        
+        <main>
+            <h1>Upcoming Events</h1>
+        
+            <section class="event">
+                <img src="image/maxresdefault.jpg" alt="Web Development Workshop Image">
+                <div class="event-details">
+                    <h2>Web Development Workshop</h2>
+                    <p>Date: January 15, 2023</p>
+                    <p>Time: 2:00 PM - 5:00 PM</p>
+                    <p>Venue: Computer Science Lab 101</p>
+                    <p>Description: Join us for an interactive workshop on the latest trends in web development.</p>
+                </div>
+            </section>
+        
+            <section class="event">
+                <img src="image/a6.jpg" alt="AI Lecture Image">
+                <div class="event-details">
+                    <h2>Guest Lecture on Artificial Intelligence</h2>
+                    <p>Date: February 5, 2023</p>
+                    <p>Time: 3:30 PM - 6:30 PM</p>
+                    <p>Venue: Central Cafeteria Opposite Mensah Sarbah Main Hall</p>
+                    <p>Description: Renowned expert Dr. Jane Doe will deliver a lecture on the advancements in AI technology.</p>
+                </div>
+            </section>
+        
+        
+        </main>
+ 
+
+    
+
+    <!-----------footer------------->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>This is the Information Technology age and at its core is Computer Science. 
+            <br>The study of computer science is therefore critical if society is to take full advantage of the benefits 
+            <br>Information Technology has to offer and make rapid economic advances. 
+            Computer science <br>involves the study and development of applications that allow for our everyday use of computers, 
+            the software systems that <br>support these applications, and the means and methods used to produce both applications and systems that <br>behave reliably, correctly and ethically. 
+            At the heart of Computer Science lies the skill of computer programming and employers who <br>hire Computer Scientists expect adept programmers 
+            with knowledge of current techniques and tools and the ability to<br> apply sound engineering principles to the development,
+             construction and maintenance of computer programs.</p>
+   <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-whatsapp"></i>
+   </div>
+   <p>Made With <i class="fa fa-heart-o"></i> by Asare Prosper Shaibu Lamar</p>
+   </section>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+<!------------Javascript for Toggle Menu---------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+    </body>
+</html>
